@@ -212,7 +212,9 @@ Note that for security reasons the `sanitize`, `sanitizeFn` and `whiteList` opti
       <td>
         <p>Base HTML to use when creating the tooltip.</p>
         <p>The tooltip's <code>title</code> will be injected into the <code>.tooltip-inner</code>.</p>
-        <p><code>.tooltip-arrow</code> will become the tooltip's arrow.</p>
+        <p>
+          <strong>The first child element</strong> will become the tooltip's arrow.
+        </p>
         <p>The outermost wrapper element should have the <code>.tooltip</code> class and <code>role="tooltip"</code>.</p>
       </td>
     </tr>

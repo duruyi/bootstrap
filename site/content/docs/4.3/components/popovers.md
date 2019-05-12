@@ -214,7 +214,9 @@ Note that for security reasons the `sanitize`, `sanitizeFn` and `whiteList` opti
         <p>Base HTML to use when creating the popover.</p>
         <p>The popover's <code>title</code> will be injected into the <code>.popover-header</code>.</p>
         <p>The popover's <code>content</code> will be injected into the <code>.popover-body</code>.</p>
-        <p><code>.popover-arrow</code> will become the popover's arrow.</p>
+        <p>
+          <strong>The first child element</strong> will become the popover's arrow.
+        </p>
         <p>The outermost wrapper element should have the <code>.popover</code> class.</p>
       </td>
     </tr>
