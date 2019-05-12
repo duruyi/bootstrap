@@ -77,6 +77,16 @@ Badges were overhauled to better differentiate themselves from buttons and to be
 - **Todo:** Removed `.badge-pill` for the `.rounded-pill` utility class
 - **Todo:** Removed badge's hover and focus styles for `a.badge` and `button.badge`.
 
+### Popovers
+
+- Renamed `.arrow` to `.popover-arrow`
+- The first child of the `template` is the arrow
+
+### Tooltips
+
+- Renamed `.arrow` to `.tooltip-arrow`
+- The first child of the `template` is the arrow
+
 ## Utilities
 
 - **Todo:** Drop `.text-hide` as it's an antiquated method for hiding text that shouldn't be used anymore
